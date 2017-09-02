@@ -1,7 +1,6 @@
 # AudioControl
 Simples controlador de áudio
 
-<br>
 ### Dependências
 ```
 sudo apt-get install qt5-default
