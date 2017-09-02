@@ -5,4 +5,4 @@ Exec=/home/youruser/build-AudioControl-Qt_5_3_2_qt5-Release/AudioControl %F
 Icon=/home/youruser/AudioControl/applications/audio.png
 Terminal=false
 Type=Application
-Categories=Network;FileTransfer;Game;
+Categories=System;Audio
