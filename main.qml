@@ -47,12 +47,13 @@ Window {
         id: sliderHorizontal1
         x: 108
         y: 90
-        width: 372
+        width: 311
         height: 21
         maximumValue: 100
         value: Context.microphone()
         onValueChanged: {
             Context.changeMicrophone("capture", this.value)
+            text2.text = qsTr(parseInt(this.value) + "%")
         }
     }
 
@@ -60,12 +61,13 @@ Window {
         id: sliderHorizontal
         x: 108
         y: 30
-        width: 372
+        width: 311
         height: 21
         maximumValue: 100
         value: Context.volume()
         onValueChanged: {
             Context.changeVolume("volume", this.value)
+            text1.text = qsTr(parseInt(this.value) + "%")
         }
     }
 
@@ -100,6 +102,30 @@ Window {
                 main.close()
             }
         }
+    }
+
+    Text {
+        id: text1
+        x: 445
+        y: 30
+        width: 24
+        height: 21
+        color: "#ffffff"
+        text: qsTr(Context.volume() + "%")
+        font.bold: true
+        font.pixelSize: 14
+    }
+
+    Text {
+        id: text2
+        x: 445
+        y: 90
+        width: 24
+        height: 21
+        color: "#ffffff"
+        text: qsTr(Context.microphone() + "%")
+        font.bold: true
+        font.pixelSize: 14
     }
 
     Component.onCompleted: {
