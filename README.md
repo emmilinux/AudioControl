@@ -1,2 +1,2 @@
 # AudioControl
-Simples controlador de audio
+Simples controlador de áudio
