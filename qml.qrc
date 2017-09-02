@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>resources/audio2.png</file>
+        <file>resources/microphone2.png</file>
+        <file>resources/conf2.png</file>
+    </qresource>
+</RCC>
