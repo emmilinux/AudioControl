@@ -1,7 +1,9 @@
-# AudioControl
-Simples controlador de áudio
+<h1 align="center">AudioControl</h1>
+<p align="center">
+Simples controlador de áudio</p>
 
-<a href="https://github.com/emmilinux/AudioControl/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-yellow.svg" alt="license"/></a>
+<p align="center">
+<a href="https://github.com/emmilinux/AudioControl/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-yellow.svg" alt="license"/></a></p>
 
 #### Versão 1.1
 ### Dependências
